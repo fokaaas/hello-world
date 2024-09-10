@@ -3,7 +3,9 @@ package com.example.helloworld;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.core.annotation.Order;
 
+@Order(2)
 @SpringBootApplication
 public class HelloWorldApplication implements CommandLineRunner {
 
